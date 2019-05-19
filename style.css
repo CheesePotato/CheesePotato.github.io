@@ -367,3 +367,58 @@ a
   text-decoration: none!important;
   color: #fff!important;
 }
+#References {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#References h1 {
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 10px;
+}
+#References h1::after
+{
+  content: '';
+  background: #007bff;
+  display:block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+#References .row {
+  margin-top: 30px;
+}
+.col-md-4 {
+  margin: 40px auto;
+}
+.profile {
+  padding: 70px 10px 10px;
+  background-color: #efefef;
+}
+.profile img {
+  top: -60px;
+  position: absolute;
+  left: calc(50% - 60px);
+  border: 10px solid #fff;
+}
+.user
+{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.profile h4 {
+  font-size: 20px;
+  color: #007bff;
+}
+.profile h5 {
+  font-size: 15px;
+  color: #007bff;
+}
+
+.profile:hover
+{
+  box-shadow: 0 0 15px 15px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: 0.5s
+}
